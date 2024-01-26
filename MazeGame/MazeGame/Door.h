@@ -2,9 +2,12 @@
 
 #include "MazeElement.h"
 
-class Door : MazeElement
+class Door : public MazeElement
 {
 public:
-	virtual void Enter() const override;
+	Door(Transform transform);
+
+public:
+	virtual void Enter() override;
 };
 
