@@ -127,19 +127,25 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ConcreteMazeFactory1.cpp" />
+    <ClCompile Include="ConcreteMazeFactory2.cpp" />
     <ClCompile Include="Door.cpp" />
     <ClCompile Include="Maze.cpp" />
     <ClCompile Include="MazeElement.cpp" />
+    <ClCompile Include="MazeFactory.cpp" />
     <ClCompile Include="MazeGame.cpp" />
     <ClCompile Include="Room.cpp" />
     <ClCompile Include="Transform.cpp" />
     <ClCompile Include="Wall.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="ConcreteMazeFactory1.h" />
+    <ClInclude Include="ConcreteMazeFactory2.h" />
     <ClInclude Include="Door.h" />
     <ClInclude Include="EDirection.h" />
     <ClInclude Include="Maze.h" />
     <ClInclude Include="MazeElement.h" />
+    <ClInclude Include="MazeFactory.h" />
     <ClInclude Include="Room.h" />
     <ClInclude Include="Transform.h" />
     <ClInclude Include="Wall.h" />
